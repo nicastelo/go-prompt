@@ -32,4 +32,4 @@ func main() {
 
  MIT
  
-## Froked from github.com/segmentio/go-prompt
+## Forked from github.com/segmentio/go-prompt
