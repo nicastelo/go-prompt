@@ -10,7 +10,7 @@
 ```go
 package main
 
-import "github.com/segmentio/go-prompt"
+import "github.com/nicastelo/go-prompt"
 
 var langs = []string{
   "c",
@@ -31,3 +31,5 @@ func main() {
 ## License
 
  MIT
+ 
+## Froked from github.com/segmentio/go-prompt
