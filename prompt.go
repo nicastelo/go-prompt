@@ -9,11 +9,10 @@ import "os"
 
 // String prompt.
 func String(prompt string, args ...interface{}) string {
-	var s string
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Printf(prompt+": ", args...)
-	s, _ = reader.ReadString('\n')
-	return s
+	fmt.Printf(prompt+": ", args...)	
+	bytes, _, _ := reader.ReadLine()
+	return string(bytes)
 }
 
 // String prompt (required).
